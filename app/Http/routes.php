@@ -1,7 +1,5 @@
 <?php
 
-use ../../DemoTwoControllers;
-
 /*
 |--------------------------------------------------------------------------
 | Application Routes
@@ -16,8 +14,3 @@ use ../../DemoTwoControllers;
 Route::get('/', function () {
     return view('welcome');
 });
-
-//Route::get()
-//{
-    
-//}
